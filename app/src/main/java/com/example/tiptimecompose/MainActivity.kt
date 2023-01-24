@@ -119,7 +119,7 @@ fun EditNumberField(
 
     TextField(
         value = value,
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth(),
         onValueChange = onValueChange,
         label = {
